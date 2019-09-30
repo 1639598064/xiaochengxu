@@ -1,0 +1,97 @@
+<!-- logo -->
+<view class="boxa">
+   <image src="../../image/logo.png" class="imga"></image>
+</view>
+<!-- 第一个轮播 -->
+<swiper indicator-dots="true" indicator-color="rgba(109, 91, 79)" indicator-active-color="#c00000" autoplay="true" interval="4000" circular="true" class="imabox">
+   <swiper-item>
+       <image src="http://zhoumeiling.gz01.bdysite.com/love/jew/lb1.png" class="imgb"></image>
+   </swiper-item>
+   <swiper-item>
+       <image src="http://zhoumeiling.gz01.bdysite.com/love/jew/lb2.jpg" class="imgb"></image>
+   </swiper-item>
+   <swiper-item>
+       <image src="http://zhoumeiling.gz01.bdysite.com/love/jew/lb3.jpg" class="imgb"></image>
+   </swiper-item>  
+</swiper>
+<!-- 导航 -->
+ <import src="./nav"/>  
+<view class="twobox">
+    <block wx:for="{{obja}}" wx:key="{{index}}">
+         <template is="cc" data="{{...item}}"></template>
+     </block>
+</view>
+<!-- 第二轮播 -->
+<view>
+    <swiper autoplay="true" interval="4000" circular="true" class="fourbox">
+       <swiper-item>
+           <image src="http://zhoumeiling.gz01.bdysite.com/love/jew/lb5.jpg" class="imgd"></image>
+       </swiper-item>
+       <swiper-item>
+           <image src="http://zhoumeiling.gz01.bdysite.com/love/jew/lb6.png" class="imgd"></image>
+       </swiper-item>
+    </swiper>
+    <view class="fivebox">
+        <image src="http://zhoumeiling.gz01.bdysite.com/love/jew/lb8.jpg" class="imge"></image>
+        <image src="http://zhoumeiling.gz01.bdysite.com/love/jew/lb9.jpg" class="imge"></image>
+        <image src="http://zhoumeiling.gz01.bdysite.com/love/jew/lb10.jpg" class="imge"></image>
+    </view>
+</view>
+<!-- 七夕特辑 -->
+<import src="./qixi"/>
+<view class="qixiBox">
+  <view class="qibox">
+      <image src="../../image/qx.jpg" class="jiuimg"></image>
+  </view>
+  <view class="objAll">
+     <block wx:for="{{obj}}" wx:key="{{index}}">
+         <template is="aa" data="{{...item}}"></template>
+     </block>
+  </view>
+  <view class="morebox" bindtap="funmore">更多商品 +</view>
+</view>
+<!-- 产品展示 -->
+<import src="./zhanshi"/>
+<view>
+     <view class="qibox">
+       <image src="../../image/cp.jpg" class="jiuimg"></image>
+     </view>
+     <view class="objAll arrAll">
+        <block wx:for="{{arr}}" wx:key="{{index}}">
+            <template is="bb" data="{{...item}}"></template>
+        </block>
+  </view>
+</view>
+<!-- 九尊动态 -->
+<view class="jiubox">
+    <image src="http://zhoumeiling.gz01.bdysite.com/love/jew/bj.png" class="jiuimg"></image>
+</view>
+<view class="sixbox">
+  <image src="http://zhoumeiling.gz01.bdysite.com/love/jew/dp.jpg" class="siximg"></image>
+  <text class="texta">九尊珠宝城盛大开业 \n</text>
+  <text class="textb">成都九尊珠宝城璀璨耀世 名望国际珠宝交易中心起锚扬帆</text>
+</view>
+<view class="sevenbox">
+   <view class="bombox">
+      <image src="http://zhoumeiling.gz01.bdysite.com/love/jew/tb1.png" class="bomImga"></image>
+      <view class="bTwoBox">
+          <text class="bTwoTexta">咨询热线：028-85241700 \n</text>
+          <text class="bTwoTextb">营业时间：8:00-18:00</text>
+      </view>
+      <image src="http://zhoumeiling.gz01.bdysite.com/love/jew/phone.png" class="bomImgb" bindtap="callphonea"></image>
+   </view>
+   <view class="bombox">
+      <image src="http://zhoumeiling.gz01.bdysite.com/love/jew/tb1.png" class="bomImga"></image>
+      <view class="bTwoBox">
+          <text class="bTwoTexta">咨询热线：15208226519 \n</text>
+          <text class="bTwoTextb">营业时间：8:00-18:00</text>
+      </view>
+      <image src="http://zhoumeiling.gz01.bdysite.com/love/jew/phone.png" class="bomImgb" bindtap="callphoneb"></image>
+   </view>
+   <view class="bomtext" bindtap="fundiz">
+      <image src="../../image/dz.png" class="bomImgb bomSi"></image>
+      <text class="bTwoTexta bomSt">四川省成都市梨花街8号</text>
+   </view>
+</view>
+<view class="finallybox"></view>
+

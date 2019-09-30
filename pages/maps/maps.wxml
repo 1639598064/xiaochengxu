@@ -1,0 +1,10 @@
+<!-- <text>地图</text> -->
+<view>
+      <!-- <mp-tabbar style="position:fixed;bottom:0;width:100%;left:0;right:0;" list="{{list}}" bindchange="tabChange"></mp-tabbar> -->
+
+    <map latitude="30.655249" longitude="104.067915" scale="14" show-location style="width: 100%; height:550px;"markers="{{map.markers}}" callout="{{map.markers}}"></map>
+</view>
+<view class="btm">
+     <text class="txt">[位置]</text>
+     <text class="txtb"> 四川省成都市梨花街8号</text>
+</view>

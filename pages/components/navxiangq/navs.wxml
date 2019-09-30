@@ -1,0 +1,6 @@
+<template name="gg">
+     <view class="temBox" bindtap="navfun"  data-id="{{id}}">
+         <image src="{{imga}}" class="ima"></image>
+         <text class="txt">{{xqname}}</text>
+    </view>
+</template>

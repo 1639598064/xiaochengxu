@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#A7213A",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "产品列表",
+  "backgroundColor": "#F2F2F2",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh": true
+}

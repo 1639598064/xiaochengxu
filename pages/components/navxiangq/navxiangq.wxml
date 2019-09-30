@@ -1,0 +1,18 @@
+<!-- pages/components/navxiangq/navxiangq.wxml-->
+<view class="box">
+    <view class="proBox">
+        <text class="proText {{id==0?'select':''}}" bindtap="fund" data-ids="0">全部</text>
+        <text class="proText {{id==13?'select':''}}" bindtap="fund" data-ids="13">戒指</text>
+        <text class="proText {{id==14?'select':''}}" bindtap="fund" data-ids="14" >项链</text>
+        <text class="proText {{id==15?'select':''}}" bindtap="fund" data-ids="15">耳饰</text>
+        <text class="proText {{id==16?'select':''}}" bindtap="fund" data-ids="16">手镯</text>
+        <text class="proText {{id==17?'select':''}}" bindtap="fund" data-ids="17">玉石</text>
+    </view>
+    <import src="./navs"/>
+    <view class="centerBox">
+        <block wx:for="{{navobj}}" wx:key="{{index}}">
+                <template is="gg" data="{{...item}}"></template>
+        </block>
+    </view>
+    <view class="con">没有更多内容了</view>
+</view>

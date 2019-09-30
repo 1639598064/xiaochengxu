@@ -1,0 +1,57 @@
+{
+  "pages": [
+  
+    "pages/home/home",
+    "pages/brand/brand",
+    "pages/product/product",
+    "pages/shoper/shoper",
+    "pages/ours/ours",
+    "pages/maps/maps",
+    "pages/youni/youni"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#A7213A",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "九尊珠宝",
+    "backgroundColor": "#F2F2F2",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#FF0000",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "image/bar1.png",
+        "selectedIconPath": "image/bar11.png"
+      },
+      {
+        "pagePath": "pages/brand/brand",
+        "text": "品牌",
+        "iconPath": "image/bar2.png",
+        "selectedIconPath": "image/bar22.png"
+      },
+      {
+        "pagePath": "pages/product/product",
+        "text": "产品",
+        "iconPath": "image/bar3.png",
+        "selectedIconPath": "image/bar33.png"
+      },
+      {
+        "pagePath": "pages/shoper/shoper",
+        "text": "商城",
+        "iconPath": "image/bar4.png",
+        "selectedIconPath": "image/bar44.png"
+      },
+      {
+        "pagePath": "pages/ours/ours",
+        "text": "我的",
+        "iconPath": "image/bar5.png",
+        "selectedIconPath": "image/bar55.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap9.json"
+}

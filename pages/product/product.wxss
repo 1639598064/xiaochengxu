@@ -1,0 +1,60 @@
+/* pages/product/product.wxss */
+.proBox{
+  width: 100%;
+  height:100rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.proText{
+  display: inline-block;
+  font-size: 34rpx;
+  color:#5e5e5e;
+}
+/* pages/navxiangq/navxiangq.wxss */
+page{
+  width: 100%;
+  height:100%;
+  background: #F2F2F2;
+}
+.proBox{
+  width: 100%;
+  height:100rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #fff;
+}
+.proText{
+  display: inline-block;
+  font-size: 34rpx;
+  color:#5e5e5e;
+}
+.select{
+  color: red;
+  font-weight: 600;
+}
+.centerBox{
+  margin-top:20rpx;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left:19rpx;
+}
+.temBox{
+  width: 50%;
+}
+.ima{
+  width: 350rpx;
+  height:310rpx;
+}
+.txt{
+  display: block;
+  margin:15rpx 0 20rpx;
+  text-align: center;
+}
+.con{
+  color:gray;
+  margin:15rpx 0;
+  font-size:24rpx;
+  text-align: center;
+}

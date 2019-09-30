@@ -1,0 +1,11 @@
+<view>
+    <input placeholder="商品搜索" class="inpBox"></input>
+    <view class="imgBox">
+    <import src="../home/qixi"/>
+        <view class="objAll">
+            <block wx:for="{{obj}}" wx:key="{{index}}">
+                <template is="aa" data="{{...item}}"></template>
+            </block>
+        </view>
+    </view>
+</view>

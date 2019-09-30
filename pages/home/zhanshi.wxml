@@ -1,0 +1,6 @@
+<template name="bb">
+    <view class="objBox" data-id="{{id}}" bindtap="zhanxq">
+        <image src="{{imgA}}" class="arrImga"></image>
+        <text class="arrtxta">{{name}} \n</text>
+    </view>
+</template>

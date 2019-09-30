@@ -1,0 +1,28 @@
+<template name="nn">
+    <view class="oneBox"   data-id="{{id}}">
+    <!-- 轮播图 -->
+       <swiper  indicator-dots="true" indicator-color="#aaa" indicator-active-color="#000" autoplay="true" interval="4000" circular="true" class="hxqBox">
+            <swiper-item>
+               <image src="{{imgUrla}}" class="imgH"></image>
+           </swiper-item>
+            <swiper-item>
+               <image src="{{imgUrlb}}" class="imgH"></image>
+           </swiper-item>
+            <swiper-item>
+               <image src="{{imgUrlc}}" class="imgH"></image>
+           </swiper-item>
+            <swiper-item>
+               <image src="{{imgUrld}}" class="imgH"></image>
+           </swiper-item>
+       </swiper>
+       <view class="pirce">
+            <text class="txta">￥{{pirce}}</text>
+            <text class="txtb">￥{{delp}}</text>
+            <view class="num">销量：{{num}}</view>
+            <view>
+               <text></text>
+            </view>
+       </view>
+      
+    </view>
+</template>

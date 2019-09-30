@@ -1,0 +1,34 @@
+/* pages/components/homexq/homexq.wxss */
+.homeBox{
+  width: 100%;
+  height:100%;
+}
+.hxqBox{
+  width: 100%;
+  height:600rpx;
+}
+.imgH{
+  width: 100%;
+  height:100%;
+}
+.pirce{
+  margin:40rpx 0 ;
+}
+.txta{
+  color:red;
+  font-size: 32rpx;
+  margin-left:22rpx;
+}
+.txtb{
+  color:#aaa;
+  text-decoration: line-through;
+  font-size: 26rpx;
+}
+.num{
+  display: block;
+  margin-top:10rpx;
+  color:#aaa;
+  font-size: 26rpx;
+  margin-left:30rpx;
+
+}

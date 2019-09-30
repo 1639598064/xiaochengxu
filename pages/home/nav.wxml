@@ -1,0 +1,6 @@
+<template name="cc">
+    <view class="threebox" bindtap="navfun"  data-id="{{id}}">
+        <image src="{{imgB}}" class="imgc"></image>
+        <text>{{titname}}</text>
+    </view>
+</template>

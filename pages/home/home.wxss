@@ -1,0 +1,193 @@
+/* logo */
+.boxa{
+  text-align: center;
+  margin:30rpx 0;
+}
+.imga{
+  width: 300rpx;
+  height:70rpx;
+}
+/* 第一个轮播 */
+.imabox{
+  width: 100%;
+  height:400rpx;
+}
+.imgb{
+  width: 100%;
+  height:100%;
+}
+/* 导航 */
+.twobox{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom:30rpx;
+}
+.imgc{
+  width: 100rpx;
+  height:100rpx;
+  margin:20rpx 0;
+}
+.threebox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* 第二轮播 */
+.fourbox{
+  width: 95%;
+  margin-left:17rpx;
+  height:400rpx;
+}
+.imgd{
+    width: 100%;
+    height:100%;
+}
+.fivebox{
+   display: flex;
+   width: 95%;
+  margin-left:17rpx;
+}
+.imge{
+  width: 100%;
+  height:320rpx;
+}
+/* 九尊动态 */
+.jiubox{
+  width: 96%;
+  height:50rpx;
+  margin:20rpx 0  20rpx 15rpx;
+}
+.jiuimg{
+  width: 100%;
+  height:100%;
+}
+.sixbox{
+  width: 100%;
+  height:520rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top:1rpx solid #e5e5e5;
+  border-bottom:2rpx solid #e5e5e5;
+}
+.siximg{
+  width: 710rpx;
+  height:400rpx;
+  margin-top:30rpx;
+}
+.texta{
+  display: inline-block;
+  font-size:32rpx;
+  color:#000;
+  line-height: 60rpx;
+  margin-top:10rpx;
+}
+.textb{
+  font-size: 28rpx;
+  color:#adadad;
+  line-height: 60rpx;
+  margin-bottom:10rpx;
+}
+.sevenbox{
+  width: 100%;
+  height:100%;
+  border-top:1rpx solid #e5e5e5;
+  margin-top:25rpx;
+}
+.bombox{
+  height:190rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom:1rpx dashed #e5e5e5;
+}
+.bomImga{
+  width: 130rpx;
+  height:120rpx;
+}
+.bomImgb{
+  width: 80rpx;
+  height:80rpx;
+}
+.bTwoTexta{
+  font-size: 34rpx;
+  color:#323232;
+  line-height: 60rpx;
+}
+.bTwoTextb{
+   font-size: 30rpx;
+  color:#5e5e5e;
+}
+.bomtext{
+  display: flex;
+  align-items: center;
+  height:150rpx;
+  border-bottom:1rpx dashed #e5e5e5;
+  margin-bottom:13rpx;
+}
+.finallybox{
+  width: 100%;
+  height:40rpx;
+  background: #f2f2f2;
+}
+/* 七夕特辑 */
+.qixiBox{
+  width: 100%;
+}
+.qibox{
+  width: 100%;
+  height:90rpx;
+}
+.objBox{
+  width:50%;
+  height:100%;
+}
+.objImga{
+  width:350rpx;
+  height:330rpx;
+}
+.objImgb{
+  width: 46rpx;
+  height:46rpx;
+  vertical-align: middle;
+  margin-left:150rpx;
+}
+.objBoxt{
+  vertical-align: middle;
+}
+.objtxta{
+  display: block;
+  margin-left:30rpx;
+  line-height: 80rpx;
+}
+.objtxtb{
+  color:red;
+  vertical-align: middle;
+  margin-left:40rpx;
+  line-height: 100rpx;
+}
+.objAll{
+  display: flex;
+  flex-wrap: wrap;
+}
+.morebox{
+  font-size: 32rpx;
+  color:#992D40;
+  font-weight: 600;
+  text-align: center;
+  line-height: 100rpx;
+}
+/* 产品展示 */
+.arrImga{
+  width: 250rpx;
+  height:220rpx;
+  margin-top:30rpx;
+}
+.arrtxta{
+  display:block;
+  font-size: 30rpx;
+  margin:20rpx 0 30rpx 50rpx;
+}
+.arrAll{
+  margin-left:100rpx;
+}

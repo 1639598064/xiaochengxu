@@ -1,0 +1,7 @@
+<!--pages/components/homexq/homexq.wxml-->
+ <import src="./homes"/>  
+<view class="homeBox">
+     <block wx:for="{{arr}}" wx:key="{{index}}">
+         <template is="nn" data="{{...item}}"></template>
+     </block>
+</view>

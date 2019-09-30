@@ -1,0 +1,10 @@
+<template name="aa">
+    <view class="objBox" bindtap="xiangq" data-id="{{id}}">
+                <image src="{{imgUrl}}" class="objImga"></image>
+                <text class="objtxta">{{title}} \n</text>
+                <view class="objBoxt">
+                    <text class="objtxtb">￥{{pirce}}</text>
+                    <image src="../../image/shop.png" class="objImgb"></image>
+                </view>
+    </view>
+</template>
