@@ -1,4 +1,4 @@
 <!--pages/brand/brand.wxml-->
 <view class="brandBox" bindtap="dian">
-   <image src="http://zhoumeiling.gz01.bdysite.com/love/jew/pinp.jpg" mode="widthFix"></image>
+   <image src="http://yuechaofan1.gz01.bdysite.com/jew/pps.jpg" mode="widthFix"></image>
 </view>

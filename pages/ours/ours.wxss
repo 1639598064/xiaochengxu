@@ -1,3 +1,10 @@
+.btnx{
+  margin-top:70rpx;
+   width: 300rpx;
+   height:100rpx;
+   border:1rpx solid #000;
+   border-radius: 20rpx;
+}
 .userinfo {
   width: 100%;
   height:360rpx;
@@ -13,6 +20,7 @@
   margin: 20rpx;
   border-radius: 50%;
   margin-top:100rpx;
+  border:2rpx solid #fff;
 }
 
 .userinfo-nickname {
@@ -21,4 +29,66 @@
 
 .usermotto {
   margin-top: 200px;
+}
+.myBox{
+  width: 100%;
+  height:120rpx;
+  line-height: 120rpx;
+}
+image{
+  width: 55rpx;
+  height:50rpx;
+  vertical-align: middle;
+}
+.txt{
+  vertical-align: middle;
+}
+.txts{
+  height:100rpx;
+  width:200rpx;
+  border:none;
+  outline: none;
+  background: #fff;
+  margin-top:-100rpx;
+  margin-left:68rpx;
+ 
+}
+.imgs{
+  margin-left:575rpx;
+}
+.imgBoxa{
+    margin:0  10rpx 0 30rpx;
+}
+.imgBoxb{
+    margin-left:450rpx;
+}
+.boxTop{
+  display: flex;
+  justify-content:space-around;
+  margin:40rpx 0;
+}
+.allBox{
+  border:1rpx solid rgb(235, 230, 230);
+}
+.boxa{
+  display: flex;
+  flex-direction: column;
+}
+.imgBoxa{
+  margin-bottom:15rpx;
+}
+.imgBoxe{
+  margin-top:10rpx;
+}
+.imgBoxc{
+  margin-left:420rpx;
+}
+.bomFinally{
+  width: 100%;
+  height: 200rpx;
+  background:#F2F2F2;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 26rpx;
+  color:#aaa;
 }

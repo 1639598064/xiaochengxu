@@ -19,10 +19,20 @@
             <text class="txta">￥{{pirce}}</text>
             <text class="txtb">￥{{delp}}</text>
             <view class="num">销量：{{num}}</view>
-            <view>
-               <text></text>
+            <view class="center">
+               <text class="centxta">{{title}}</text>
+               <text class="centxtb">{{title}}</text>
             </view>
        </view>
-      
+       <view class="nullbox"></view>
+      <view class="navbox">
+            <text class="navtxt">商品详情</text>
+            <!-- <text class="navtxt">商品属性</text>
+            <text class="navtxt">商品评论</text> -->
+      </view>
+      <view class="bomBox" >
+          <text class="bomtxt">{{title}}</text>
+          <image src="{{imgUrle}}"  mode="widthFix" class="bomImg"></image>
+      </view>
     </view>
 </template>

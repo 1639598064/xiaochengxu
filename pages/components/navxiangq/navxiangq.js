@@ -16,6 +16,7 @@ Page({
     wx.navigateTo({
       url: '../navxiangqs/navxiangqs?id=' + e.currentTarget.dataset.id
     })
+    // console.log(e.currentTarget.dataset.id)
   },
   /**
    * 生命周期函数--监听页面加载
@@ -28,26 +29,31 @@ Page({
   },
   func(num) {
     if (num == 0) {
-      var id = 0;
+      var id = 0;  //点击的是全部
+      //过滤
       var newdata = homedata.navdata.filter(v => v.datas)
       let temp = [];
+      //遍历每条数据
       for (let i in newdata) {
-        for (let k in newdata[i].datas) {
-          temp.push(newdata[i].datas[k])
+        for (let k in newdata[i].datas) {  //取出每条数据里的datas数据
+          temp.push(newdata[i].datas[k])  //将取出的每个数组里的数据存放到全部里  （temp)
         }
       }
       this.setData({ navobj: temp })
       this.setData({ id })
       // console.log(temp)
     } else {
-      var id = 0;
-      var newdata = homedata.navdata.filter(v => v.id == num && v)
+      var id = 0;  //点击的是其他5个导航内容
+      var newdata = homedata.navdata.filter(v => v.id == num && v)  //根据id进行过滤
+      //v.id == num && v  箭头函数的第一个v是形参，箭头后面的v是返回值  
+
       id = newdata[0].id
-      //  console.log(newdata)
+      //  console.log(id)
       newdata = newdata[0].datas
       // console.log(newdata)
       this.setData({ id })
       this.setData({ navobj: newdata })
+      // console.log({id})
     }
   },
   /**

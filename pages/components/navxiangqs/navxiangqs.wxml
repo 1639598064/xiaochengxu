@@ -1,3 +1,9 @@
-<!--pages/components/navxiangqs/navxiangqs.wxml-->
-<view>
+<!-- pages/components/homexq/homexq.wxml -->
+<view class="homeBox">  
+    <view class="oneBox">
+        <view class="topBox">{{navobj.xqname}}</view>
+        <view class="twoBox">
+             <image src="{{navobj.imga}}"></image>
+        </view>
+    </view>
 </view>

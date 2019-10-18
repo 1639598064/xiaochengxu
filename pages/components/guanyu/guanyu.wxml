@@ -1,0 +1,15 @@
+<!--pages/components/guanyu/guanyu.wxml-->
+<view class="box">
+    <view class="oneBox twoBox">成都九尊珠宝有限公司</view>
+    <view class="oneBox">
+         <image src="../../../image/phone.png" class="imga"></image>
+         <text class="txt">15208226254</text>
+    </view>
+    <view class="oneBox">
+         <image src="../../../image/add.png" class="imga"></image>
+         <text class="txt">四川省成都市梨花街</text>
+    </view>
+    <view class="text">
+        九尊珠宝始于1993年，现公司位于成都市梨花街8号;是一家集新品设计、技术研发、生产加工、批发制造以及品牌推广为一体的大型专业化珠宝企业；集钻石、K金、铂金、K金、镶嵌、黄金、彩色宝石等全品类珠宝供应商。
+    </view>
+</view>

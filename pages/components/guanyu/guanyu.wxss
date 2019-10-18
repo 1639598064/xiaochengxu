@@ -1,0 +1,28 @@
+/* pages/components/guanyu/guanyu.wxss */
+.box{
+  margin:0 22rpx;
+}
+.imga{
+  width: 50rpx;
+  height:50rpx;
+  vertical-align: middle;
+}
+.twoBox{
+  font-size: 46rpx;
+  font-weight: 600;
+}
+.oneBox{
+  width: 100%;
+  height:120rpx;
+  border-bottom:1rpx solid #ccc;
+  line-height: 120rpx;
+}
+.txt{
+ vertical-align: middle;
+}
+.text{
+  margin-top:50rpx;
+  text-indent: 50rpx;
+  color:#aaa;
+  line-height: 45rpx;
+}

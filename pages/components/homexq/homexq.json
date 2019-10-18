@@ -1,4 +1,22 @@
 {
-  "component": true,
-  "usingComponents": {}
-}
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#FF0000",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "image/bar1.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "客服",
+        "iconPath": "image/bar1.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "立刻购买"
+      }
+    ]
+  }
+}  

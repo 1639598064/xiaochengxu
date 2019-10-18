@@ -1,10 +1,61 @@
 <view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
+    <view class="userinfo">
+      <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="btnx">会员登录 </button>
+      <block wx:else>
+        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      </block>
+    </view>
+    <!-- 我的订单 -->
+    <view class="myBox">
+        <image src="../../image/dd.png" class="imgBoxa"></image>
+        <text class="txt">我的订单</text>
+        <image src="../../image/jt.png" class="imgBoxb"></image>
+    </view>
+    <view class="centerBox">
+        <view class="allBox">
+           <view class="boxTop">
+            <view class="boxa">
+              <image src="../../image/df.png" class="imgBoxa"></image>
+              <text class="txt">待付款</text>
+            </view>  
+            <view class="boxa">
+              <image src="../../image/dh.png" class="imgBoxa"></image>
+              <text class="txt">待发货</text>
+            </view> 
+            <view class="boxa">
+              <image src="../../image/ds.png" class="imgBoxa"></image>
+              <text class="txt">待收货</text>
+            </view>  
+            <view class="boxa">
+              <image src="../../image/th.png" class="imgBoxa"></image>
+              <text class="txt">退换货</text>
+            </view>  
+        </view>
+        <view class="myBox">
+            <image src="../../image/yh.png" class="imgBoxa imgBoxe"></image>
+            <text class="txt">我的优惠券</text>
+            <image src="../../image/jt.png" class="imgBoxc"></image>
+        </view>
+        </view>
+    </view>
+   <view class="myBox" >
+        <image src="../../image/kf.png" class="imgBoxa"></image>
+        <!-- <text class="txt" >在线客服</text> -->
+        <image src="../../image/jt.png" class=" imgs"></image>
+        <button open-type='contact'  class="txt txts">在线客服</button>
+        
+    </view>
+     <view class="myBox">
+        <image src="../../image/sdz.png" class="imgBoxa"></image>
+        <text class="txt">收货地址</text>
+        <image src="../../image/jt.png" class="imgBoxb"></image>
+    </view>
+    <view class="myBox" bindtap="gyfun">
+        <image src="../../image/gy.png" class="imgBoxa"></image>
+        <text class="txt">关于我们</text>
+        <image src="../../image/jt.png" class="imgBoxb"></image>
+    </view>
+    <view class="bomFinally">小程序开发：成都炬诚信息科技</view>
 </view>
 

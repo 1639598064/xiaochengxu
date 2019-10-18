@@ -7,9 +7,13 @@ Page({
     navobj: [],
     id: 0
   },
-  fund(e) {
-    // this.setData({id:e.currentTarget.dataset.ids})
-    this.func(e.currentTarget.dataset.ids)
+ 
+//详情页跳转
+  navfun(e) {
+    wx.navigateTo({
+      url: '../components/navxiangqs/navxiangqs?id=' + e.currentTarget.dataset.id
+    })
+    // console.log(e.currentTarget.dataset.id)
   },
   /**
    * 生命周期函数--监听页面加载

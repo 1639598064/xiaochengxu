@@ -1,4 +1,4 @@
-//index.js
+
 //获取应用实例
 const app = getApp()
 
@@ -8,10 +8,16 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
+  //关于我们事件跳转
+  gyfun(){
+    wx.navigateTo({
+      url: '../components/guanyu/guanyu'
+    })
+  },
   //事件处理函数
   bindViewTap: function () {
     wx.navigateTo({
-      url: '../logs/logs'
+      // url: '../logs/logs'
     })
   },
   onLoad: function () {

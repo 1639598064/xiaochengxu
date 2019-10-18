@@ -6,8 +6,8 @@ Page({
   data: {
     map: {
       markers: [{
-        latitude: "30.655249",
-        longitude: "104.067915",
+        latitude: "30.655249", //维度
+        longitude: "104.067915",  //经度
         callout: {
           content: "九尊珠宝"
         }

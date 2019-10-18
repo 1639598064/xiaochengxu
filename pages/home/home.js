@@ -53,10 +53,17 @@ Page({
     })
     // console.log(e.currentTarget.dataset.id)
   },
-  //展示详情页的跳转
-  zhanxq(){
-    url: '../components/zhanshixq/zhanshixq?id=' + e.currentTarget.dataset.id  
-
+  //产品展示详情页的跳转
+  zhanxq(e) {
+    wx.navigateTo({
+      url: '../components/navxiangqs/navxiangqs?id=' + e.currentTarget.dataset.id
+    })
+  },
+  //第二个轮播图点击事件跳转
+  funq(){
+    wx.navigateTo({
+      url: '../components/navxiangq/navxiangq' 
+    })
   },
  /**
    * 生命周期函数--监听页面加载

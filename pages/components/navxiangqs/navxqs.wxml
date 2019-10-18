@@ -1,0 +1,8 @@
+<template name="mm">
+ <view>aaaa</view>
+    <view class="oneBox"   data-id="{{id}}">
+        <text>{{xqname}}</text>
+        <image src="{{imga}}"></image>
+       
+    </view>
+</template>

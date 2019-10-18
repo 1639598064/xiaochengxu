@@ -1,1 +1,12 @@
-/* pages/components/navxiangqs/navxiangqs.wxss */
+
+.topBox{
+  margin:50rpx 0 130rpx 22rpx;
+  font-size:36rpx;
+}
+.twoBox{
+  text-align: center;
+}
+image{
+  width: 560rpx;
+  height:600rpx;
+}
